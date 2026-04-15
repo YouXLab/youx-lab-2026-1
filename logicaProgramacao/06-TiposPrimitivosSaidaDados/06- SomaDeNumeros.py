@@ -7,3 +7,17 @@ print('a soma vale',s)
 #float= 4,5 ; 0.076; -15.223; 7.0
 #bool= true; False
 #str= 'Olá' ;'7.5' ;''
+
+#forma diferente de usar o print
+print('a soma vale', s)
+print('a soma vale {}'.format(s))
+
+#tipo do numero
+n1 = int(input('digite um valor'))
+print(type(n1))
+
+#Mudando a resposta do print:
+n1 = int(input('digite um valor'))
+n2 = int(input('digite outro'))
+s = n1+n2
+print('A soma entre', n1, 'e', n2, 'vale', s)
