@@ -1,0 +1,1 @@
+#Faça um programa que leia um numero inteiro e mostre na tela o seu sucessor e se antecesspr.

@@ -4,4 +4,4 @@
 # / -Divisao
 # ** -Potencia
 # // -Divisao Inteira
-# (n consegui colocar) -Resto da Divisao
+# % -Resto da Divisao
