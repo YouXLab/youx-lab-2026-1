@@ -3,11 +3,11 @@
 
 #DESAFIO019
 
-from math import radians, sin, cos, tan
-angulo = float(input('Digite o angulo que voce deseja: '))
-seno = sin(radians(angulo))
-print('O angulo de {} tem o SENO de {:.2f}'.format(angulo, seno))
-cosseno = cos(radians(angulo))
-print('O angulo de {} tem o COSSENO de {:.2f}'.format(angulo, cosseno))
-tangente = tan(radians(angulo))
-print('O angulo de {} tem a TANGETE de {:.2f}'.format(angulo, tangente))
+import random
+n1 = str(input('Primeiro aluno: '))
+n2 = str(input('Segundo aluno: '))
+n3 = str(input('Terceiro aluno: '))
+n4 = str(input('Quarto aluno: '))
+lista = [n1, n2, n3, n4]
+escolhido = random.choice(lista)
+print('O aluno escolhido foi {}'.format(escolhido ))
