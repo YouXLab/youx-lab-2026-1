@@ -3,11 +3,14 @@
 #O programa deverá escrever na tela se o usuario venceu ou perdeu.
 
 from random import randint
+from time import sleep
 computador = randint(0, 5) # Faz o computador "PENSAR"
 print('-=-' * 20)
 print('Vou pensar em um numero entre 0 e 5.Tente adivinhar...')
 print('-=-' * 20)
 jogador = int(input('Em que numero eu pensei? ')) # Jogador tenta advinhar
+print('PROCESSANDO...')
+sleep(2)
 if jogador == computador:
     print('PARABENS!Você conseguiu me vencer!')
 else:
