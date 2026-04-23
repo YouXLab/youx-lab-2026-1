@@ -16,4 +16,4 @@ print('-'.join(frase), '   join')
 
 print(frase2.strip(), '   strip')
 print(frase2.rstrip(), '   rstrip')
-print(frase2.lstrip(), '   lstrip')
+print(frase2.lstrip(), '   lstrip') 

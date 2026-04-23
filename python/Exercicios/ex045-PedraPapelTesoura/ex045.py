@@ -1,6 +1,6 @@
-import random
+from random import randint
 itens = ('Pedra' , 'Papel' , 'Tesoura')
-computador = random.randint (0, 2)
+computador = randint (0, 2)
 
 print('''Suas opções são:
 [ 0 ] PEDRA
