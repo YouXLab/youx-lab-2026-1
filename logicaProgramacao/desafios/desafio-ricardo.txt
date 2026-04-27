@@ -1,0 +1,5 @@
+> Crie um programa que simule um jogo similiar ao jogo de forca:
+- Exiba feedback visual do tamanho da palavra + posição de letras corretas
+- validação de vitoria ou perda (6 letras incorretas)
+- não é considerado letras ja digitadas
+-

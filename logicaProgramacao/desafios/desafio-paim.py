@@ -17,7 +17,6 @@ for i in jogadores:
         papel.append(i)
     if jogadores[i] == 3:
         tesoura.append(i)
-
 if len(pedra) > 1:
     print(f"Os jogadores {pedra} empataram")
     if papel:
