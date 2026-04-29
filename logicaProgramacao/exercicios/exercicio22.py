@@ -1,0 +1,5 @@
+nome =str(input(' digite  seu nome completo:')).strip()
+print('analisando seu nome ...')
+print('seu nome em maiúsculas é  {} '.format(nome.upper()))
+print('seu nome em minúsculos é {}'.format(nome.lower()))
+print('seu nome tem ao todo {}'.format(len(nome)))
