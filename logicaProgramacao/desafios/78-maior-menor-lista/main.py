@@ -2,7 +2,7 @@ ma = 0
 me = 0
 l = []
 for i in range(0, 5):
-    l.append(int(input("Teste: ")))
+    l.append(int(input(f"Digite o {i+1}° número: ")))
     if i == 0:
         ma = l[i]
         me = l[i]
