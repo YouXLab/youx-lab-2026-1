@@ -9,8 +9,6 @@ if dados['clt'] != 0:
 print('-='*30)
 ano_atual = datetime.now().year
 dados['idade'] = ano_atual - dados['nascimento']
-dados['aposentadoria'] = dados['idade'] - dados['contratacao'] + 35
-
-#print(dados)
-for values in dados:
-    print(f'{values.key} tem o valor de {values}')
+dados['aposentadoria'] = (dados['contratacao'] + 35) - ano_atual + dados['idade']
+for k, v in dados.items():
+    print(f'{k} tem o valor de {v}')
