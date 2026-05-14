@@ -1,0 +1,7 @@
+numero =int(input('Digite um numero: '))
+n =str(numero)
+print(f'Analisando o numero {numero}')
+print(f'unidade {n[3]}')
+print(f'dezena {n[2]}')
+print(f'centena {n[1]}')
+print(f'milhar {n[0]}')

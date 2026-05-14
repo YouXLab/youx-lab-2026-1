@@ -1,0 +1,5 @@
+frase =str(input('Digite uma frase: ')).lower()
+numeroDea = frase.count('a'[:])
+print(f'A letra A aparece {numeroDea} vezes na frase')
+print('o primeiro A aparece na posição:', frase.find('a')+1)
+print('o ultimo A aparece na posição:', frase.rfind('a')+1)
