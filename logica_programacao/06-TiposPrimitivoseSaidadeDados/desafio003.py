@@ -1,0 +1,1 @@
+'Exercício feito na pasta 06 tanana dentreo da pasta 06 tanana...'

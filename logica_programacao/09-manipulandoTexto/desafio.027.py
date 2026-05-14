@@ -1,0 +1,6 @@
+nome =str(input('Qual é o seu nome completo?:')).title()
+primeiroNome = nome.split(' ')
+print(primeiroNome)
+print(f'Prazer em conhecer você, {primeiroNome[0]}')
+print(f'Seu 1° nome é: {primeiroNome[0]}')
+print(f'Seu último nome é: {primeiroNome[-1]}')

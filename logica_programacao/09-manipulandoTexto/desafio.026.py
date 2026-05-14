@@ -1,0 +1,5 @@
+pergunta =str(input('Escreva uma frase:')).lower()
+alphaA = pergunta.count("a"[:])
+print(f'A letra A aparece: {alphaA} vezes')
+print('O 1° A aparece na posição:', pergunta.find('a')+1)
+print('O último A apareceu na posição: ', pergunta.rfind('a')+1)

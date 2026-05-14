@@ -1,0 +1,25 @@
+print('-----------------------------------------------')
+
+tabuada =int(input('Me diga um número para mostrar a tabuada dele:'))
+
+print(f'{tabuada} * {1} = {tabuada*1}')
+
+print(f'{tabuada} * {2} = {tabuada*2}')
+
+print(f'{tabuada} * {3} = {tabuada*3}')
+
+print(f'{tabuada} * {4} = {tabuada*4}')
+
+print(f'{tabuada} * {5} = {tabuada*5}')
+
+print(f'{tabuada} * {6} = {tabuada*6}')
+
+print(f'{tabuada} * {7} = {tabuada*7}')
+
+print(f'{tabuada} * {8} = {tabuada*8}')
+
+print(f'{tabuada} * {9} = {tabuada*9}')
+
+print(f'{tabuada} * {10} = {tabuada*10}')
+
+print('-----------------------------------------------')
