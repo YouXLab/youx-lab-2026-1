@@ -2,10 +2,18 @@
 #O jogo só será interrompido quando o jogador perder, mostrando o total de vitórias consecutivas que ele conquistou no final do jogo.
 import random
 from random import randint
+from urllib import parse
+contador = 0
 print("VAMOS JOGAR PAR OU IMPAR!!")
 while True:
-    c = random.randint(1,100)
-    p = int(input("Diga um valor: "))
-    pi = input("Par ou impar? [P/I]").upper()
+    par = 0
+    impar = 0
+    player = int(input("Diga um valor: "))
+    if player % 2:
+        computador = 
+
+    else:
+        impar = player
+    vencedor =
 
     

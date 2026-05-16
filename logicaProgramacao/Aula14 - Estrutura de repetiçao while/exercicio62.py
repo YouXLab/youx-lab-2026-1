@@ -1,4 +1,3 @@
-from base64 import decode
 
 print("Gerador de PA ")
 num = int(input("Digite o primeiro termo: "))
