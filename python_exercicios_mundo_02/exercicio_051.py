@@ -2,8 +2,8 @@
 # No final, mostre os 10 primeiros termos dessa progressão.
 
 
-primeiro = int(input("primeiro termo: "))
-razao = int(input("Digite a razão"))
+primeiro = int(input("primeiro número: "))
+razao = int(input("Digite a razão: "))
 decimo = primeiro + (10 - 1) * razao
 for c in range(primeiro, decimo + razao,razao):
     print(f"{c}", end = " " )

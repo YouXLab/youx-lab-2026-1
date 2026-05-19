@@ -1,5 +1,6 @@
-#Exercício Python 045: Crie um programa que faça o computador jogar Jokenpô com você.
-from import lib.metadata import
+#Exercício Python 045: Crie um programa que faça o computador jogar Jokenpô com voce.
+
+
 from random import randint
 itens = ("PEDRA", "PAPEL", "TESOURA")
 computador = randint(0,2)
