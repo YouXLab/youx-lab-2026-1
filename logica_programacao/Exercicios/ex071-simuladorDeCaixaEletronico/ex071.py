@@ -1,0 +1,1 @@
+valor =float(input('qual o valor a ser '))
