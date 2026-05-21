@@ -1,25 +1,25 @@
-opcao = 0
+resp = 'S'
 soma = 0
+quantidade = 0
 media = 0
 maior = 0
 menor = 0
-quantidade = 0
-opcao = 'S'
 
-while opcao == 'S':
- numero = int(input("Digite um número inteiro: "))
- quantidade += 1
+while resp in 'S':
+    numero = int(input('Digite um número: '))
+    soma += numero
+    quantidade += 1
 
-if quantidade == 1:
-     maior = menor = numero
- else:
-     if numero > maior:
-         maior = numero
-     if numero < menor:
-         menor = numero
+    if quantidade == 1:
+        maior = menor = numero
+    else:
+        if numero > maior:
+            maior = numero
+        if numero < menor:
+            menor = numero
 
- opcao = str(input("Quer continuar? [S/N] ")).strip().upper()[0]
+    resposta = str(input('Quer continuar? [S/N]: ')).upper().strip()[0]
+
 media = soma / quantidade
-print(f"Você digitou {quantidade} números.")
-print(f"A média foi {media:.2f}")
-print(f"O maior valor foi {maior} e o menor foi {menor}")
+print(f'Você digitou {quantidade} números e a média foi {media:.2f}')
+print(f'O maior valor foi {maior} e o menor foi {menor}')
