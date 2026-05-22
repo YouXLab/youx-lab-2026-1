@@ -3,7 +3,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: "Roboto";
+  font-family: Roboto;
 }
 
 body {
@@ -11,7 +11,7 @@ body {
   flex-wrap: wrap;
 }
 
-/* Apresentação do evento */
+/* Apresentação do Evento */
 #about-container {
   flex: 1.4;
   padding: 2rem 4rem;
@@ -29,7 +29,7 @@ body {
   margin-right: 0.6rem;
 }
 
-#exclusive {
+#experiencia {
   text-transform: uppercase;
   color: #0075ff;
   font-weight: bold;
@@ -40,7 +40,7 @@ body {
 #about-container h2 {
   font-size: 2.4rem;
   max-width: 500px;
-  margin-bottom: 1rem;
+  margin: 1rem;
 }
 
 #date {
@@ -49,9 +49,9 @@ body {
   margin-bottom: 1rem;
 }
 
-#description {
+#descricao {
   max-width: 500px;
-  margin-bottom: 1rem;
+  margin: 1rem;
   line-height: 1.4rem;
 }
 
@@ -113,13 +113,13 @@ body {
 }
 
 #form-inner p {
-  margin-bottom: 1rem;
+  margin: 1rem;
 }
 
-#register-form {
+#registro {
   display: flex;
   flex-direction: column;
-  gap: 0.5rem;
+  gap: 1rem;
   margin-bottom: 2rem;
 }
 
@@ -136,6 +136,7 @@ body {
 
 #email {
   min-width: 100%;
+  margin: 0.5rem 0;
 }
 
 #register-form input[type="submit"] {
@@ -146,16 +147,18 @@ body {
   font-weight: bold;
   cursor: pointer;
   transition: 0.4s;
+  width: 100%;
+  margin-bottom: 2rem;
 }
 
 #register-form input[type="submit"]:hover {
-  background-color: #fff;
+  background: #fff;
   color: #0075ff;
 }
 
 #benefits {
   text-align: left;
-  align-self: start;
+  align-items: start;
 }
 
 #benefits h4 {
@@ -169,65 +172,4 @@ body {
 
 #benefits li {
   margin-bottom: 0.5rem;
-}
-
-/* Responsivo */
-@media (max-width: 450px) {
-  body {
-    flex-direction: column;
-  }
-
-  #about-container {
-    padding: 2rem;
-    padding-bottom: 0;
-  }
-
-  #about-container h2 {
-    font-size: 3rem;
-  }
-
-  #exclusive,
-  #date {
-    font-size: 1.4rem;
-  }
-
-  #description {
-    font-size: 1.6rem;
-    line-height: 2.2rem;
-  }
-
-  #about-container h4 {
-    font-size: 2rem;
-  }
-
-  #users-container {
-    flex-direction: column;
-  }
-
-  .user-card {
-    width: 100%;
-    padding: 2rem;
-  }
-
-  .user-card img {
-    width: 180px;
-  }
-
-  .user-card .user-name {
-    font-size: 1.6rem;
-  }
-
-  .user-card .user-role {
-    font-size: 1.4rem;
-  }
-
-  #form-inner {
-    margin: 2rem;
-    padding: 2rem;
-  }
-
-  #register-form,
-  #name-container {
-    gap: 1rem;
-  }
 }
