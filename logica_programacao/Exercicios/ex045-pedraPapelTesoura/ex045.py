@@ -2,7 +2,7 @@ import random
 
 print('vamos jogar pedra papel e tesoura')
 jogador = str(input('pedra, papel ou tesoura'))
-computador = random.choice(['Pedra', 'Papel', 'tesoura']).lower()
+computador = random.choice(['Pedra', 'Papel', 'tesoura: ']).lower()
 print(f'Voce escolheu {jogador}')
 print(f'O computador escolheu {computador}')
 if jogador == computador:

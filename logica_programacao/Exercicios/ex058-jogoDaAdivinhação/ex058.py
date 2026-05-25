@@ -4,7 +4,7 @@ jogador = ''
 palpite = 0
 while jogador != computador:
     palpite += 1
-    jogador = int(input("Digite outro numero: "))
+    jogador = int(input("Digite um numero: "))
     print ("voce errou, tente novamente ")
 print(F"Voce acertou  \n foram necessarios {palpite} palpites  ")
 
