@@ -1,5 +1,4 @@
 from rich import print
-from rich.panel import Panel
 class controleRemoto:
     def __init__(self, canal = 1, volume = 2):
         self.canalAtual:int = canal
@@ -44,8 +43,6 @@ class controleRemoto:
     def mostrarTV(self):
         print('TV ligada')
         self.comando = str(input(f'< CH{self.canalAtual} >  - VOL{self.volumeAtual} + '))
-
-
 c1 = controleRemoto()
 c1.controle()
 while c1.comando != '0':
@@ -65,3 +62,4 @@ while c1.comando != '0':
 
         case '@':
             c1.desligar()
+            
