@@ -117,3 +117,31 @@ if 2 % 2 == 0:
 é par
 else:
 é ímpar
+
+EVITAR USAR BRAKE
+
+while + condicao
+valor = 0
+while valor != 0:
+
+FUNÇOẼS
+=>Para criar uma função em Python, usamos a palavra-chave def, seguida pelo nome
+da função e parênteses () com os parâmetros (dados de entrada). O código deve
+terminar com dois pontos : e o bloco executável deve estar recuado.
+
+exemplo 1:
+=>
+def calcular_area(largura, altura):
+    area = largura * altura
+    return area # Devolve o resultado processado
+
+# Chamando a função
+resultado = calcular_area(5, 10)
+print(resultado)  # O resultado será 50
+
+exemplo 2:
+=>
+def minha_funcao():
+    # Bloco de código que será executado
+    print("Olá, Mundo!")
+minha_funcao()
