@@ -5,51 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="2da25419-3bbb-4349-a73c-7f65a6f88a9c" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/../../../mundo-2/14-estruturaRepeticaoWhile/desafios/desafio60.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../mundo-2/14-estruturaRepeticaoWhile/desafios/desafio63.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../mundo-2/14-estruturaRepeticaoWhile/desafios/desafio64.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../mundo-2/14-estruturaRepeticaoWhile/desafios/desafio65.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../mundo-2/15-interrompendoRepeticoesWhile/desafios/desafio66.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../mundo-2/15-interrompendoRepeticoesWhile/desafios/desafio67.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../mundo-2/15-interrompendoRepeticoesWhile/desafios/main.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../16-tuplas/desafios/desafio 75.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../16-tuplas/desafios/desafio72.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../16-tuplas/desafios/desafio73.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../16-tuplas/desafios/desafio74.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../16-tuplas/desafios/desafio76.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../16-tuplas/desafios/desafio77.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../16-tuplas/desafios/main.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../17-listas/desafios/desafio78.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../17-listas/desafios/desafio79.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../17-listas/desafios/desafio80.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../17-listas/desafios/desafio81.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../17-listas/desafios/desafio82.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../17-listas/desafios/desafio83.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../17-listas/desafios/main.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../18-listas2/desafios/desafio84.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../18-listas2/desafios/desafio85.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../18-listas2/desafios/desafio86.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../18-listas2/desafios/desafio87.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../18-listas2/desafios/desafio88.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../18-listas2/desafios/desafio89.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../18-listas2/desafios/main.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../19-dicionarios/desafios/desafio90.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../19-dicionarios/desafios/desafio91.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../19-dicionarios/desafios/desafio92.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../19-dicionarios/desafios/desafio93.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../19-dicionarios/desafios/desafio94.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../19-dicionarios/desafios/desafio95.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/desafio100.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/desafio96.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/desafio97.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/desafio98.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/desafio99.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../desafiologica/desafioLogica.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../desafiologica/main.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../mundo-1/04-tiposPrimitivos/desafioTiposPrimitivos/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../mundo-1/04-tiposPrimitivos/desafioTiposPrimitivos/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../mundo-1/05-operacoesAritmeticas/desafiosOperacoes/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../mundo-1/05-operacoesAritmeticas/desafiosOperacoes/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../mundo-1/07-manipulandoTexto/desafiosManipulandoTexto/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../mundo-1/07-manipulandoTexto/desafiosManipulandoTexto/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../html_css/curso_html_css_com_projeto-main/projeto/css/styles.css" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../html_css/curso_html_css_com_projeto-main/projeto/css/styles.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../html_css/curso_html_css_com_projeto-main/projeto/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../html_css/curso_html_css_com_projeto-main/projeto/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../html_css/curso_html_css_com_projeto-main/teoria/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../html_css/curso_html_css_com_projeto-main/teoria/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -66,10 +24,10 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../../../.." />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 4,
-  "fromUser": false
-}]]></component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 4,
+  &quot;fromUser&quot;: false
+}</component>
   <component name="ProjectId" id="3DPGUEOy4r2pAVRMhyRZkc1GlAy" />
   <component name="ProjectLevelVcsManager">
     <ConfirmationsSetting value="2" id="Add" />
@@ -93,6 +51,7 @@
     "com.intellij.ml.llm.matterhorn.ej.ui.settings.DefaultModelSelectionForGA.v1": "true",
     "git-widget-placeholder": "laber-vinicius",
     "junie.onboarding.icon.badge.shown": "true",
+    "last_opened_file_path": "/home/youx/Atividades/youx-lab-2026-1/logicaProgramacao/mundo-3/21-funcoes2/desafio",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -118,6 +77,7 @@
       <option name="presentableId" value="Default" />
       <updated>1778176305199</updated>
       <workItem from="1778176306170" duration="7667000" />
+      <workItem from="1779736925968" duration="14000" />
     </task>
     <servers />
   </component>
