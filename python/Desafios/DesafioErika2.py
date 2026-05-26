@@ -35,8 +35,8 @@ for funcionario in funcionarios:
     elif funcionario["anos_trabalhados"] <= 5:
         aumento = funcionario["Salario"] + ((funcionario["Salario"] * 10) / 100)
     funcionario["novo_salario"] = aumento
-    print(f'Funcionário {funcionario["Nome"]}: Salário antigo = {funcionario["Salario"]}, Salário novo = {aumento}')
-print('-='*50)
+#    print(f'Funcionário {funcionario["Nome"]}: Salário antigo = {funcionario["Salario"]}, Salário novo = {aumento}')
+#print('-='*50)
 
 #Plus desconto INSS
 
@@ -65,4 +65,19 @@ for inss in funcionarios:
         inss["pos_INSS"] = desconto
         lista4.append(inss)
         porcent = '14%'
-    print(f'Funcionário {inss["Nome"]}: Desconto: {porcent}, Salário após desconto do INSS: {inss["pos_INSS"]}')
+
+#Plus Ranking
+ranking = []
+for funcionario in funcionarios:
+    dado = (funcionario["pos_INSS"], funcionario["Nome"])
+    ranking.append(dado)
+for cont in enumerate(ranking):
+    maior = 0
+    if ranking[0]["Salario"] > maior:
+        maior = ranking[0]["Salario"]
+
+
+#rank = sorted(ranking, reverse=True)
+#for nm, sl in rank:
+#    print(f'{sl} | {nm}')
+#print(rank)
