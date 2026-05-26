@@ -10,5 +10,4 @@ for c in range(0, 5):
           lista.insert(pos, numero)
           print(f'Adicionando na posição {pos} da lista...')
           break
-          pos += 1
 print(f'Os valores digitados em ordem foram {lista}')
