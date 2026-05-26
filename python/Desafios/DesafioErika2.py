@@ -29,14 +29,35 @@ funcionarios = [
     {"Nome": "Carolina",  "Salario": 5000, "anos_trabalhados": 4},
     {"Nome": "Henrique",  "Salario": 7000, "anos_trabalhados": 6},
 ]
+def verPosicao(tupla):
+    salario = tupla[0]
+    if len(listaRank) == 0:
+        listaRank.append(tupla)
+    else:
+        maiorSalario = listaRank[0][0]
+        if salario >= maiorSalario:
+            listaRank.insert(0, tupla)
+        else:
+            for cont, funcionario in enumerate(listaRank):
+                sl = funcionario[0]
+                nm = funcionario[1]
+                if tupla in listaRank:
+                    pass
+                else:
+                    if sl > salario:
+                        pass
+                    elif sl <= salario:
+                        listaRank.insert(cont, tupla)
+    if not tupla in listaRank:
+        listaRank.insert(len(listaRank), tupla)
 for funcionario in funcionarios:
     if funcionario["anos_trabalhados"] > 5:
         aumento = funcionario["Salario"] + ((funcionario["Salario"] * 20)/100)
     elif funcionario["anos_trabalhados"] <= 5:
         aumento = funcionario["Salario"] + ((funcionario["Salario"] * 10) / 100)
     funcionario["novo_salario"] = aumento
-#    print(f'Funcionário {funcionario["Nome"]}: Salário antigo = {funcionario["Salario"]}, Salário novo = {aumento}')
-#print('-='*50)
+    print(f'Funcionário {funcionario["Nome"]}: Salário antigo = {funcionario["Salario"]}, Salário novo = {aumento}')
+print('-='*50)
 
 #Plus desconto INSS
 
@@ -67,15 +88,14 @@ for inss in funcionarios:
         porcent = '14%'
 
 #Plus Ranking
-ranking = []
-for funcionario in funcionarios:
-    dado = (funcionario["pos_INSS"], funcionario["Nome"])
-    ranking.append(dado)
-for cont in enumerate(ranking):
-    maior = 0
-    if ranking[0]["Salario"] > maior:
-        maior = ranking[0]["Salario"]
+listaRank = list()
+for i in funcionarios:
+    dados = (i['pos_INSS'], i['Nome'])
+    verPosicao(dados)
 
+print('\n\n   RANKING DOS FUNCIONARIOS COM BASE EM SEU SALARIO:')
+for salario, nome in listaRank:
+    print(f'Nome: {nome} | Salario: {salario:.2f}')
 
 #rank = sorted(ranking, reverse=True)
 #for nm, sl in rank:
