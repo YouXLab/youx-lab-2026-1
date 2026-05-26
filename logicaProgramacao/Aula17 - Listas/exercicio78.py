@@ -8,13 +8,9 @@ for numero in range(1, 5+1):
     lista_numero.append(num)
     menor = num
     maior = num
-    opcao = input("Deseja continuar[S/N] ").upper()
-    if 'N' in opcao:
-        break
     if num < menor:
         menor = num
     if num > maior:
         maior = num
-
 print(lista_numero)
 print(f"O menor numero é  {menor} e o maior é {maior}")

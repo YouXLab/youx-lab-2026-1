@@ -1,44 +1,39 @@
 #Aprimore o desafio 93 para que ele funcione com vários jogadores, incluindo um sistema de visualização de detalhes do aproveitamento de cada jogador.
-jogadores = list()
-jogador = dict()
+jogadores = []
+jogador = {}
 contador = 0
 
 continuar = ''
-while 'N' not in continuar:
+while continuar != 'N':
     nome = input("Nome do jogador: ")
     partidas = int(input(f"Quantas partidas {nome} jogou? "))
-    gols = list()
-    for i in range (0 ,partidas):
-        gol = int(input(f"Quantos gols na partida {i}?"))
+    gols = []
+    for indice in range(1, partidas):
+        gol= int(input(f"Quantos gols ele fez na {indice}"))
         gols.append(gol)
-    jogador = {"cod": contador, "nome": nome, "gols" :gols, "total" :sum(gols)}
+    jogador = {'cod': contador,
+               'nome':nome,
+               'gols':gols,
+               'total': sum(gols)
+               }
     contador += 1
-    jogadores.append((jogador.copy()))
-    continuar = input("Quer continuar? [S/N] ")
-    if continuar != 'S' and continuar != 'N':
-        print("Erro! Digite apenas com S ou N")
-
-print("-=" * 30)
-for i in jogador.keys():
-    print(f"{i:<15}", end="")
-print("")
-print("-" *60)
-for k, v in enumerate(jogadores):
-    for d in v.values():
-        print(f"{str(d):<15}", end='')
+    jogadores.append(jogador.copy())
+    continuar = input("Quer continuar: [S/N]").upper()
+    while 'SN' not in continuar:
+        continuar = input("Erro! Digite apenas ")
+    for indice in jogador.keys():
+        print(f'{indice:<15}',end="")
     print()
-print("-" * 60)
-
-continuar_jogador = ''
-while 'N'not in continuar_jogador:
-    codigo = int(input("Mostrar dado de qual jogador? "))
-    for i in jogadores:
-        if codigo == i["cod"]:
-            print(f"-- LEVANTAMENTO DO JOGADOR {i["nome"]}:")
-            for c, v in enumerate(i["gols"]):
-                print(f"No jogo {c + 1} fez {v} gols.")
-        elif codigo >= len(jogadores) and codigo != 999:
-            print(f"ERRO! Não existe jogador com código {codigo}. Tente novamente!")
-        elif codigo == 999:
-            print("<<< VOLTE SEMPRE >>>")
-            continuar_jogador = False
+    print('-'*50)
+    for indice, jogador in enumerate(jogadores):
+        for dados in jogador.values():
+            print(f"{str(dados):<15 }", end ="")
+        print()
+    print('-'*50)
+    continuar_jogador ='S'
+    while continuar_jogador != 'N':
+        codigo = int(input("Quer ver os dados de qual jogador? "))
+        if codigo ==999:
+            print("VOLTE SEMPRE")
+        continuar_jogador = 'N'
+        for
