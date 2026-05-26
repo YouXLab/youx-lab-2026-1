@@ -1,5 +1,5 @@
 def voto(ano):
-  from datetime import date
+  from datetimde import date
   atual = date.today().year
   idade = atual - ano
   if idade < 16:
