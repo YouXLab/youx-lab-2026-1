@@ -1,4 +1,4 @@
-aluno=dict()
+aluno={}
 aluno['nome']= str(input('nome: '))
 aluno['media']= float(input(f'media de {aluno["nome"]}: '))
 if aluno['media'] >= 7:
