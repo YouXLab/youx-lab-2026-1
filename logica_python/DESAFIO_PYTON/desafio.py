@@ -32,12 +32,21 @@ funcionarios = [
 
 atual = 'salario' # criei uma variavel 'atal'= salario para mostrar o que o funcionaario vai ganhar, no if utilizado logo depois do for
 
-for elem in funcionarios:  # usei o for para repetir
-    print(elem['Salario']) # usei print para mostrar
-    if elem['anos_trabalhados'] <= 5: # usei if para mostrar 'se' anos trabalhados do funcionario for menor vai ser igual a uma porcentagem
-        aumentar = (10/100) * elem['Salario'] # criei uma variavel 'aumentar' para mostrar a porcentagem que o funcionario vai ganhar
+for elem in funcionarios:                    # usei o for para repetir
+ #   print(elem['Salario'])                 # usei print para mostrar
+    if elem['anos_trabalhados'] <= 5:              # usei if para mostrar 'se' anos trabalhados do funcionario for menor vai ser igual a uma porcentagem
+        aumentar = (10/100) * elem['Salario']       # criei uma variavel 'aumentar' para mostrar a porcentagem que o funcionario vai ganhar
         print(aumentar)
-        elem['novo_salario']= elem['salario']+ aumentar
+
+        print('o aumento dos funcionarios foi de {}')
+    else:
+        aumentar = (20/100) * elem['Salario']
+        # criei a variavel para mostrar a porcentagem
+
+    elem['novo_salario'] = elem['Salario'] + aumentar
+    print(f"funsionario {elem ['Nome']}: salario antigo = {elem['Salario']}, salaro novo = {elem['novo_salario']}")
+
+print(funcionarios)
 
 
 
@@ -53,5 +62,7 @@ for elem in funcionarios:  # usei o for para repetir
 
 
 
- #DIFICULDADES QUE ENCONTREI: dificuldades em calcular o novo salario, dificuldade de iniciar, de pensar, e de execulatr oq  estou pensando
+
+
+#DIFICULDADES QUE ENCONTREI: dificuldades em calcular o novo salario, dificuldade de iniciar, de pensar, e de execulatr oq  estou pensando, deficuldaes
 
