@@ -39,18 +39,13 @@ for funcionario in funcionarios:        #usei o for para repetiçao de funcionar
          funcionario["novo_salario"] = funcionario['Salario'] + aumentar
          print(f'O aumento do funcionario foi de {aumentar}')
 
-    if funcionarios ['anos_trabalhados'] <= 5:             #usei elif para colocar uma condiçao pois se for menor ou igual a 5 de anos trabalho aumenta so 10%
+    elif funcionario ['anos_trabalhados'] <= 5:             #usei elif para colocar uma condiçao pois se for menor ou igual a 5 de anos trabalho aumenta so 10%
         aumentar = funcionario["Salario"] * 10/100
         funcionario["novo_salario"] = funcionario['Salario'] + aumentar
         print(f'O aumento do funcionario foi de {aumentar}')
 
-#     else:
-#        print('nome:'
-#              'Saalario:'
-#              'anos_trabalhando:'
-#              'novo_salario:')
-# print(f'Funcionario{nome:}  salario antigo ={atual}  salario novo: = {novo_salario}')
-#
+    print(f'Funcionario {funcionario['Nome']}  salario antigo {funcionario['Salario']}  salario novo: {funcionario['novo_salario']}')
+#Muita dificuldade em acessar valor
 # Dificuldade com sintaxe
 # Dificuldade de testar
 # Dificuldade de iniciar

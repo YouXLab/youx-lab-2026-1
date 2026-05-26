@@ -19,3 +19,6 @@ def metade(preco=0, formato=False):
 
 def moeda(preco=0, moeda='R$'):
     return f'{moeda}{preco:>.2f}'.replace('.','.')
+
+
+
