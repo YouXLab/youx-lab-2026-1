@@ -66,20 +66,19 @@ for pessoa in range(0, len(funcionarios)):
         inss = funcionarios[pessoa]['novo_salario'] - (funcionarios[pessoa]['novo_salario'] * 7.5 / 100)
         funcionarios[pessoa]['novo_salario'] = inss
         desconto7.append(funcionarios[pessoa])
-print(desconto9)
-print(desconto12)
 #DIFICULDADE 4/10
 
 #PLUS 2
 #Nome: XXXX | Salario: XXX
 ranking = []
-print(sorted(funcionarios))
-for pessoa, salario in funcionarios:
-    if funcionarios[pessoa]["Salario"] > funcionarios[pessoa+1]["Salario"]:
+cont = 0
+for pessoa in funcionarios:
+    if funcionarios[pessoa]["Salario"] > funcionarios[pessoa]["Salario"]:
+        ranking.append(funcionarios[pessoa]['Salario'])
+print(ranking)
 
 
-
-        print(f"Nome:{funcionarios[pessoa]['Nome']} | Salario: {funcionarios[pessoa]['Salario']}")
+        #print(f"Nome:{funcionarios[pessoa]['Nome']} | Salario: {funcionarios[pessoa]['Salario']}")
 
 
 
