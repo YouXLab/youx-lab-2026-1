@@ -36,9 +36,6 @@ for elem in funcionarios:                    # usei o for para repetir
  #   print(elem['Salario'])                 # usei print para mostrar
     if elem['anos_trabalhados'] <= 5:              # usei if para mostrar 'se' anos trabalhados do funcionario for menor vai ser igual a uma porcentagem
         aumentar = (10/100) * elem['Salario']       # criei uma variavel 'aumentar' para mostrar a porcentagem que o funcionario vai ganhar
-        print(aumentar)
-
-        print('o aumento dos funcionarios foi de {}')
     else:
         aumentar = (20/100) * elem['Salario']
         # criei a variavel para mostrar a porcentagem
