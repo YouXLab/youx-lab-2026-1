@@ -10,5 +10,3 @@ for n in numeros:
     print(f"[{n}]", end= ' ' )
 print(f"\n O maior numero foi {max(numeros)}")
 print(f"O menor numero foi {(min(numeros))}")
-
-mddke

@@ -48,4 +48,3 @@ print()
 
 print("Em que posição está o time da Chapecoense: ", end='')
 print(f"{classificacao_brasileirao.index("Chapecoense") + 1}º posição ")
-

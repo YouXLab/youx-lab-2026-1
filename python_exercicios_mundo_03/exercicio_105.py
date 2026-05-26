@@ -27,5 +27,5 @@ def notas(*n, sit=False):
             resumo_notas['Situação'] = 'EXCELENTE'
     return resumo_notas
 # Teste
-resp = notas(5.5, 2.5, 9, 8.5, sit=True)
-print(resp)
+resposta = notas(5.5, 2.5, 9, 8.5, sit=True)
+print(resposta)

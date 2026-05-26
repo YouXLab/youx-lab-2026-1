@@ -3,28 +3,28 @@
 # mostrado ou não na tela o processo de cálculo do fatorial.
 
 
-def fatorial(num, show=False):
+def fatorial(numero, show=False):
     """
     Calcula o Fatorial de um número
     :param num:  -- > Número desejado (int)
     :param show: -- > Se deseja que o processo de cálculo seja apresentado (lógico -boolean)
     :return:
     """
-    dec = num
+    dec = numero
     count = 0
-    result = 0
-    fat = ''
-    while count < num:
+    resultado = 0
+    fatorial = ''
+    while count < numero:
         count += 1
-        fat += str(dec) + 'x'
+        fatorial += str(dec) + 'x'
         if count > 1:
-            result = (result * dec)
+            resultado = (resultado * dec)
         else:
-            result = num
+            resultado = numero
         dec -= 1
     if show:
-        print(fat[:len(fat)-1], '=', '{}'.format(result))
+        print(fatorial[:len(fatorial)-1], '=', '{}'.format(resultado))
     else:
-        print(result)
+        print(resultado)
 fatorial(5, True)
 help(fatorial)

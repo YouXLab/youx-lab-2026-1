@@ -13,6 +13,5 @@ def voto(ano):
     return f'Com {idade} anos o voto é opcional.'
   else:
     return f'Com {idade} anos o voto é obrigatório.'
-
-nasc = int(input('Ano que vc nasceu: '))
-print(voto(nasc))
+nascimento = int(input('Ano que vc nasceu: '))
+print(voto(nascimento))
