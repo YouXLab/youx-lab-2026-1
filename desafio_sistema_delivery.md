@@ -11,7 +11,7 @@ Seu programa deve começar declarando a variável abaixo. Ela simula os dados vi
 cardapio = [
     {
         "id": 1, 
-        "nome": "Hambúrguer Clássico", 
+        "": "Hambúrguer Clássico", 
         "preco": 25.50, 
         "avaliacoes": [5, 4, 5]
     },
@@ -81,7 +81,7 @@ Após pegar o nome do usuário, o sistema deve entrar em um loop contínuo e exi
 **[1] Ver Cardápio e Avaliações** \
 **[2] Adicionar Item ao Pedido** \
 **[3] Finalizar Pedido** \
-**[4] Sair do Sistema** 
+**[4] Sair do Sistema**
 
 O usuário digitará o número correspondente. Se digitar uma opção inválida, o sistema avisa o erro e mostra o menu novamente.
 
