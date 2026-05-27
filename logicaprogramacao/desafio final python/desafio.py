@@ -36,8 +36,8 @@ for funcionario in funcionarios: #o for é pra recorrer a lista funcionários.
         funcionario["novo_salario"] = funcionario["Salario"] + aumento_salario
 
     elif funcionario["anos_trabalhados"] <= 5:
-        aumento_salario = funcionario["salario"] * 0.10
+        aumento_salario = funcionario["Salario"] * 0.10
         funcionario["novo_salario"] = funcionario["Salario"] + aumento_salario
-print(f'Funcionario salario antigo salario novo')
+    print(f'Funcionários: {funcionario['Nome']}, salário antigo: {funcionario['Salario']}, salário novo:{funcionario['novo_salario']}')
 
 #tive dificuldade em começar do zero e tive dificuldade de acessar os valores
