@@ -71,10 +71,11 @@ for pessoa in range(0, len(funcionarios)):
 #PLUS 2
 #Nome: XXXX | Salario: XXX
 ranking = []
-cont = 0
-for pessoa in funcionarios:
-    if funcionarios[pessoa]["Salario"] > funcionarios[pessoa]["Salario"]:
+pos = 0
+for  pessoa in enumerate(funcionarios):
+    if funcionarios[pessoa]["Salario"] > funcionarios[pessoa[pos]]["Salario"]:
         ranking.append(funcionarios[pessoa]['Salario'])
+        pos+= 1
 print(ranking)
 
 
