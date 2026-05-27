@@ -34,11 +34,11 @@ for dado in funcionarios: #aqui entrei dentro de todos os dados da lista funcion
         novoSalario = dado["Salario"]+ (dado["Salario"] * 10/100) #se nao for maior que 5 fiz a conta novamente porem com um aumento de 10%
 
     dado['novo_salario'] = novoSalario #aqui criei uma nova chave onde oque ela queria é o  salario com os aumentos
-    print(f'  Funcionário {dado['Nome']}: salário antigo = {dado['Salario']}, salário novo = {novoSalario} ')
+    print(f'  Funcionário {dado["Nome"]}: salário antigo = {dado["Salario"]}, salário novo = {novoSalario} ')
+c
 
 
-
-#tive dificuldade no for 
+#tive dificuldade no for
 
 
 
