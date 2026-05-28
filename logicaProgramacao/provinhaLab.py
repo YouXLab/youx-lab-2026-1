@@ -78,8 +78,8 @@ for  pessoa in enumerate(funcionarios):
         pos+= 1
 print(ranking)
 
-
-        #print(f"Nome:{funcionarios[pessoa]['Nome']} | Salario: {funcionarios[pessoa]['Salario']}")
+#DIFICULDADE 7/10
+#Nao consegui pensar em uma forma de ordernar os salarios, sem o sorted
 
 
 
