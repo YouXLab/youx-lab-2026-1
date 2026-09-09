@@ -5,105 +5,111 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <title>Desafio 2 Front End</title>
+    <title>Gerenciador de Tarefas</title>
 
     <link rel="stylesheet" href="desafio%20TABELA.css">
 </head>
 
 <body>
 
-<main>
+<main class="caixaPrin">
 
-    <div id="caixaNovaTarefa" class="caixa">
+    <h1>Gerenciador de Tarefas Web</h1>
 
-        <div id="caixaCriarTarefas" class="caixaFuncionalidades">
+    <section class="caixa-formulario">
 
-            <label for="nomeTarefa">NOME DA TAREFA</label>
-            <input
-                    type="text"
-                    name="nomeTarefa"
-                    id="nomeTarefa"
-                    placeholder="Digite o nome da tarefa"
-            >
+        <h2>Nova Tarefa</h2>
 
-            <label for="tipoTarefa">TIPO</label>
-            <input
-                    type="text"
-                    name="tipoTarefa"
-                    id="tipoTarefa"
-                    placeholder="Digite o tipo da tarefa"
-            >
+        <form id="formTarefa">
 
-            <label for="dataTarefa">DATA DE CADASTRO</label>
-            <input
-                    type="date"
-                    name="dataTarefa"
-                    id="dataTarefa"
-            >
+            <div class="campo campo-grande">
+                <label for="nomeTarefa">NOME DA TAREFA</label>
 
-            <label for="dataTerminoTarefa">DATA PARA TÉRMINO</label>
-            <input
-                    type="date"
-                    name="dataTerminoTarefa"
-                    id="dataTerminoTarefa"
-            >
+                <input
+                        type="text"
+                        id="nomeTarefa"
+                        placeholder="Digite o nome da tarefa"
+                        required
+                >
+            </div>
 
-            <label for="statusTarefa">STATUS</label>
+            <div class="campo">
+                <label for="tipoTarefa">TIPO</label>
 
-            <select
-                    name="statusTarefa"
-                    id="statusTarefa"
-            >
-                <option value="nao-iniciado">NÃO INICIADO</option>
-                <option value="em-andamento">EM ANDAMENTO</option>
-                <option value="finalizado">FINALIZADO</option>
-            </select>
+                <select id="tipoTarefa" required>
+                    <option value="tipo">Selecione</option>
+                    <option value="Trabalho">Trabalho</option>
+                    <option value="Estudos">Estudos</option>
+                    <option value="Pessoal">Pessoal</option>
+                </select>
+            </div>
 
-            <button id="btnCadastrarTarefa">
-                + Cadastrar Tarefa
-            </button>
+            <div class="campo">
+                <label for="dataCadastro">DATA DE CADASTRO</label>
 
-        </div>
+                <input
+                        type="date"
+                        id="dataCadastro"
+                        required
+                >
+            </div>
 
-    </div>
+            <div class="campo">
+                <label for="dataTermino">DATA PARA TÉRMINO</label>
 
+                <input
+                        type="date"
+                        id="dataTermino"
+                        required
+                >
+            </div>
 
-    <div id="caixaTarefas" class="caixa2">
+            <div class="campo">
+                <label for="statusTarefa">STATUS</label>
 
-        <div id="caixaEditarTarefas" class="caixaFuncionalidades">
+                <select id="statusTarefa" required>
+                    <option value="Não iniciado">Não iniciado</option>
+                    <option value="Em andamento">Em andamento</option>
+                    <option value="Finalizado">Finalizado</option>
+                </select>
+            </div>
 
-            <button id="btnEditarTarefa">
-                Editar
-            </button>
+            <div class="area-botao">
+                <button type="submit" id="botaoCadastrar">
+                    + Cadastrar Tarefa
+                </button>
+            </div>
 
-            <button id="btnDeletarTarefa">
-                Excluir
-            </button>
+        </form>
 
-            <button id="statusFinalizado">
-                FINALIZADO
-            </button>
+    </section>
 
-            <button id="statusNaoIniciado">
-                NÃO INICIADO
-            </button>
+    <section class="caixa-tabela">
 
-            <button id="statusEmAndamento">
-                EM ANDAMENTO
-            </button>
+        <table>
 
-            <button id="prazoEmDia">
-                EM DIA
-            </button>
+            <thead>
+            <tr>
+                <th>Tarefa</th>
+                <th>Tipo</th>
+                <th>Término</th>
+                <th>Status</th>
+                <th>Prazo</th>
+                <th>Ações</th>
+            </tr>
+            </thead>
 
+            <tbody id="listaTarefas">
 
-        </div>
+            </tbody>
 
-    </div>
+        </table>
+
+    </section>
 
 </main>
 
-<script src="desafio%20RPG.js"></script>
+<script src="desafio TABELA.js"></script>
 
 </body>
 
