@@ -1,0 +1,22 @@
+package Heranca_Polimorfismo.Entities;
+
+import java.time.LocalDate;
+
+public class ProdutoUsado extends Produto {
+    private LocalDate dataDeFabricacao;
+
+
+    public ProdutoUsado(String nome, Double preco,LocalDate dataDeFabricacao) {
+        super(nome, preco);
+        this.dataDeFabricacao = dataDeFabricacao;
+    }
+
+    public LocalDate getDataDeFabricacao() {
+        return dataDeFabricacao;
+    }
+
+    @Override
+    public String etiquetaPreco() {
+        return getNome() + " (used) " + "$ " + getPreco() + "(Data de Fabricacao: " + getDataDeFabricacao() + ")";
+    }
+}
