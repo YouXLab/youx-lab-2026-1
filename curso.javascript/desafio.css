@@ -1,0 +1,171 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+main{
+    margin: 3rem auto;
+    width: 90%;
+    border: 1px solid #f1f2f6;
+    border-radius: 0.5rem;
+    overflow: hidden;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+input, select {
+    padding: 0.5rem;
+}
+
+
+#botaoCadastrar{
+    background-color: rgb(7, 214, 14);
+    color: white;
+    font-weight: bold;
+    border-radius: 0.5rem;
+    padding: 0.5rem;
+} 
+
+.botaoEditar {
+    background-color: rgb(246, 117, 12);
+    color: white;
+    font-weight: bold;
+    border-radius: 20px;
+}
+
+.botaoDeletar {
+    background-color: red;
+    color: white;
+    font-weight: bold;
+    border-radius: 20px;
+}
+
+.texto-prazo {
+    border-radius: 10px;
+}
+.atrasado{
+    background-color: rgb(245, 23, 23);
+    color: white;
+    font-weight: bold;
+}
+.emdia{
+    background-color: rgb(82, 243, 82);
+    color: white;
+    font-weight: bold;
+    border-radius: 20px;
+
+}
+
+.texto-status-em_andamento{
+    background-color: rgb(41, 112, 244);
+    color: white;
+    border-radius: 20px;
+}
+
+.texto-status-nao_iniciado{
+    background-color: gray;
+    color: white;
+    border-radius: 20px;
+}
+
+.texto-status-finalizado{
+    background-color: rgb(17, 213, 102);
+    color: white;
+    border-radius: 20px;
+}
+
+.container-acoes{
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+}
+
+#inputNome {
+    font-size: 18px;
+    border-radius: 20px;
+}
+
+#inputTipo {
+    font-size: 18px;
+    border-radius: 20px;
+}
+
+#inputDataCadastro {
+    font-size: 18px;
+    border-radius: 20px;
+}
+
+#dataParaTermino {
+    font-size: 18px;
+    border-radius: 20px;
+}
+
+#inputStatus {
+    font-size: 18px;
+    border-radius: 20px;
+}
+
+#nomeTarefaLabel {
+    font-size: 18px;
+    border-radius: 20px;
+}
+
+.tarefa {
+    display: flex;
+    flex-direction: column;
+    margin: 1rem;
+    border: 1px dashed #000;
+    padding: 1rem;
+    border-radius: 0.5rem;
+}
+
+.divisao {
+    display: flex;
+    flex-direction: column;
+    min-width: 40%;
+}
+
+
+.add-form {
+    display: flex;
+    flex-wrap: wrap;  
+    gap: 1rem;  
+}
+
+.gerenciador {
+    display: flex;
+    flex-direction: column;
+}
+
+.titulo {
+    width: 100%;
+    font-size: 1.3rem;
+    background-color: #f1f2f6;
+    padding: 0.5rem;
+}
+
+#caixaTabelaTarefas { 
+    margin: 1rem; /* margem dos elementos */
+    width: 100%; /* definir a largura */
+    display: flex; 
+    justify-content: center; /* centralizadar os elementos e coloca na frente so funciona com display flex*/  
+}
+
+th {
+    margin: 0 auto;
+    width: 100%; 
+    padding: 0.5rem 1rem; /*largura*/ 
+    background-color: #f1f2f6;
+}
+
+td {
+    text-align: center;
+    border-bottom: 1px solid #f1f2f6;
+    height: 3rem;
+}
+
+td p {
+    white-space: nowrap;
+    padding: 0.5rem; /* espaço dos elementos */
+}

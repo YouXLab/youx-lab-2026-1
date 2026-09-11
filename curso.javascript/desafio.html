@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="desafio.css">
+
+    <title>Desafio Tabela</title>
+</head>
+
+<body>
+    <main>
+        <div class="gerenciador">
+        <h1 class="titulo"> Gerenciador de Tarefas Web </h1>
+            <div class="tarefa">
+                <h2>NOVA TAREFA</h2>
+
+                <form class="add-form">
+                    <div class="divisao">
+                        <label id="nomeTarefaLabel" for="inputNome">Nome da tarefa </label>
+                        <input type="text" id="inputNome" name="Nome da tarefa" class="caixa1"
+                            placeholder="Nome da tarefa">
+                    </div>
+                    <div class="divisao">
+                        <label for="inputTipo">Tipo</label>
+                        <select id="inputTipo" name="Tipo" class="caixa1">
+                            <option value="Trabalho">Trabalho</option>
+                            <option value="Estudo">Estudo</option>
+                            <option value="Pessoal">Pessoal </option>
+                        </select>
+                    </div>
+
+
+                    <div class="divisao">
+                        <label for="inputDataCadastro">Data de cadastro</label>
+                        <input type="date" id="inputDataCadastro" class="caixa1">
+                    </div>
+
+
+                    <div class="divisao">
+                        <label for="dataParaTermino">Data para termino</label>
+                        <input type="date" id="dataParaTermino" class="caixa1">
+                    </div>
+
+                    <div class="divisao">
+                        <label for="inputStatus">Status</label>
+                        <select id="inputStatus" name="Status" class="caixa1">
+                            <option value="Em andamento">Em andamento</option>
+                            <option value="Não iniciado">Não iniciado</option>
+                            <option value="Finalizado">Finalizado</option>
+                        </select>
+                    </div>
+
+
+                    <button id="botaoCadastrar"> + Cadastrar Tarefa</button>
+                </form>
+            </div>
+
+            <div id="caixaTabelaTarefas">
+                <table>
+                    <thead>
+                        <th>Tarefa</th>
+                        <th>Tipo</th>
+                        <th>Cadastro</th>
+                        <th>Término</th>
+                        <th>Status</th>
+                        <th>Prazo</th>
+                        <th>Ações</th>
+                    </thead>
+
+
+
+                    <tbody id="corpoTabela">
+                    </tbody>
+                </table>
+            </div>
+        </div>
+
+
+    </main>
+
+
+
+
+    <script src="desafio.js"></script>
+</body>
+
+</html>

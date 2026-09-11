@@ -189,4 +189,4 @@ function mediaNiveis(grupos) {
     media = soma / quantidade
     return media
 }
-console.log(mediaNiveis(personagens))
+console.log(mediaNiveis(personagens))}
